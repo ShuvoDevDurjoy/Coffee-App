@@ -1,0 +1,122 @@
+.back_image {
+  background-image: url("/images/bg.jpg");
+  z-index: 1;
+}
+
+.back_image::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(51, 12, 12, 0.834);
+  backdrop-filter: blur(1px);
+  z-index: 2;
+}
+
+.reservation_container_grid {
+  grid-template-columns: 1fr 1fr;
+  padding: 0px 0px;
+}
+
+.reservation_container_grid::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 15px;
+  background-image: url("/images/overlay-bottom.png");
+  position: absolute;
+  transform: rotateY(180deg) rotateX(180deg);
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.reservation_container_grid::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 15px;
+  background-image: url("/images/overlay-bottom.png");
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.reservation_form_container {
+  background-color: rgb(96, 49, 49, 0.3);
+  backdrop-filter: blur(5px);
+  z-index: 2;
+}
+
+.reservation_left{
+  z-index: 10;
+}
+
+.input_type_2 {
+  display: inline-block;
+  height: 40px;
+  border: 1px solid #da9f5b;
+  outline: none;
+  color: rgb(207, 160, 160);
+  background-color: transparent;
+  padding: 1.5rem 1.2rem;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.input_type_2.active{
+    outline: 3px solid rgb(164, 120, 120);
+}
+
+input::placeholder {
+  color: gray;
+}
+
+select.input_type_2 {
+  display: inline-block;
+  height: 50px;
+  padding: 0 1.2rem;
+  line-height: 2;
+  vertical-align: middle;
+  background-position: 100% 20%;
+  appearance: none;  /* Hide native arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url('/icon/native_icon.png') no-repeat right 10px center;
+  background-size: 24px 24px;
+}
+
+select {
+  vertical-align: center;
+}
+
+
+.reservation_submit_button{
+    padding-block: 15px;
+    border: 2px solid #da9f5b;
+    background-color: #da9f5bb1;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: .2s ease-out;
+}
+
+.reservation_submit_button:hover{
+    background-color: #da9f5b;
+    transition: .2s ease-out;
+}
+
+
+@media screen and (max-width: 876px){
+  .reservation_container_grid{
+    grid-template-columns: 1fr;
+  }
+
+  .reservation_left{
+    padding-bottom: 20px;
+    padding-inline: 10px;;
+  }
+}

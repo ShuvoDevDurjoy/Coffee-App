@@ -6,16 +6,27 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
+    "export": "next export",
+    "deploy": "npm run build && npm run export && gh-pages -d out",
     "lint": "next lint"
   },
   "dependencies": {
+    "gsap": "^3.13.0",
+    "next": "15.3.3",
+    "owl.carousel": "^2.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.3"
+    "react-owl-carousel": "^2.3.3",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9",
     "eslint-config-next": "15.3.3",
-    "@eslint/eslintrc": "^3"
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8"
   }
 }

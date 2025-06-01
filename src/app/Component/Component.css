@@ -1,0 +1,192 @@
+/****************************************Custom button CSS **************************/
+.custom_button_container{
+    display: inline;
+    width: max-content;
+}
+/* height: 100%; */
+
+.custom_button_link{
+    display: inline;
+    padding: 10px 20px;
+    height: 100%;
+    opacity: 0.8;
+    margin-top: 20px;
+    transition: .2s linear;
+}
+
+.custom_button_link:hover{
+    opacity: 1;
+    transition: .2s linear;
+}
+
+.button_link_text{
+    opacity: 1;
+}
+
+.styled_header{
+    padding-block: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.styled_header::after{
+    display: block;
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 50%;
+    background-color: gold;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.card_component_container{
+    grid-template-columns: repeat(3, minmax(40px, 60px)) 1fr;
+    grid-template-rows: repeat(3, 50px) 1fr;
+    border: 2px solid #DA9F5B;
+    border-radius: 1rem;
+    padding: 10px 10px;
+    grid-template-areas: 
+        "image image image header"
+        "image image image header"
+        "image image image desc"
+        "image image image desc"
+        "image image image desc";;
+}
+
+/* .service_icon{ */
+    /* font-size: 22px;
+    padding: 10px;
+    display: flex;
+    line-height: 1;
+    aspect-ratio: 1/1;
+} */
+
+.card_content_desc{
+    line-height: 1.4;
+}
+
+.service_icon{
+    width: 40px;
+    height: 40px;
+}
+
+.service_icon i{
+    font-size: 18px;
+}
+
+.card_image_container{
+    grid-area: image;
+    border-radius: .5rem;
+    overflow: hidden;
+    transition: .2s linear;
+    cursor: pointer;
+}
+
+.card_image_container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card_image_container img{
+    transform: scale(1);
+    transition: .2s ease-out;
+}
+
+.card_image_container:hover img{
+    transform: scale(10);
+    transition: .2s ease-out;
+    /* display: none; */
+}
+                                                                                                                                                    
+
+.card_content_header{
+    grid-area: header;
+}
+.card_content_desc{
+    grid-area: desc;
+}
+
+
+
+@media screen and (min-width: 768px){
+    .card_content_header{
+        flex-direction: column;
+        place-content: center;
+    }
+    .card_content_title .fn_para_3{
+        text-align: center;
+        font-size: clamp(1rem, 2vw, 1.5rem);
+    }
+    .card_content_desc{
+        text-align: center;
+    }
+    .card_component_container{
+        grid-template-areas: 
+            "image image image header"
+            "image image image header"
+            "image image image header"
+            "desc desc desc desc"
+            "desc desc desc desc";
+    }
+}
+
+
+
+@media screen and (min-width: 1024px){
+    .card_content_header{
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .card_content_title .fn_para_3{
+        text-align: left;
+    }
+
+    .card_component_container{
+        grid-template-areas: 
+            "image image image header"
+            "image image image header"
+            "image image image desc"
+            "image image image desc"
+            "image image image desc";
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .card_content_title .fn_para_3{
+        text-align: center;
+    }
+
+    .card_content_header{
+        flex-direction: column;
+        place-content: center;
+    }
+
+    .card_component_container{
+        grid-template-columns: repeat(3, minmax(80px, 100px)) 1fr;
+        grid-template-rows: repeat(3, 80px) 1fr;
+        grid-template-areas: 
+            "image image image header"
+            "image image image header"
+            "image image image header"
+            "desc desc desc desc"
+            "desc desc desc desc";
+    }
+}
+
+@media screen and (max-width: 548px){
+    .card_component_container{
+        grid-template-areas: 
+            "image image image image"
+            "image image image image"
+            "image image image image"
+            "header header header header"
+            "desc desc desc desc";
+    }
+}

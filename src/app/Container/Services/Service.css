@@ -1,0 +1,10 @@
+.service_container_grid{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .service_container_grid{
+        grid-template-columns: 1fr;
+    }
+}

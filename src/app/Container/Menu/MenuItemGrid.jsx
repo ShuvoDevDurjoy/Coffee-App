@@ -2,42 +2,42 @@ import MenuItem from "./MenuItem";
 
 const hotCoffee = [
   {
-    image: "/images/menu-1.jpg",
+    image: "./images/menu-1.jpg",
     title: "Black Coffee",
     desc: "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
     price: "$5",
   },
   {
-    image: "/images/menu-2.jpg",
+    image: "./images/menu-2.jpg",
     title: "Black Coffee",
     desc: "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
-    price: "$5",
+    price: "$7",
   },
   {
-    image: "/images/menu-3.jpg",
+    image: "./images/menu-3.jpg",
     title: "Black Coffee",
     desc: "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
-    price: "$5",
+    price: "$9",
   },
 ];
 const coldCoffee = [
   {
-    image: "/images/menu-1.jpg",
+    image: "./images/menu-1.jpg",
     title: "Black Coffee",
     desc: "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
-    price: "$5",
+    price: "$6",
   },
   {
-    image: "/images/menu-2.jpg",
+    image: "./images/menu-2.jpg",
     title: "Black Coffee",
     desc: "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
-    price: "$5",
+    price: "$8",
   },
   {
-    image: "/images/menu-3.jpg",
+    image: "./images/menu-3.jpg",
     title: "Black Coffee",
     desc: "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
-    price: "$5",
+    price: "$10",
   },
 ];
 

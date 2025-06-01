@@ -7,28 +7,28 @@ import "./Hero.css";
 const slides = [
   {
     id: 1,
-    src: "/images/carousel-1.jpg",
+    src: "./images/carousel-1.jpg",
     heading: "We have been serving 1",
     title: "Coffee",
     sub: "* SINCE 1950 *",
   },
   {
     id: 2,
-    src: "/images/carousel-2.jpg",
+    src: "./images/carousel-2.jpg",
     heading: "Freshly Brewed 2",
     title: "Espresso",
     sub: "* EVERY DAY *",
   },
   {
     id: 1,
-    src: "/images/carousel-1.jpg",
+    src: "./images/carousel-1.jpg",
     heading: "We have been serving 3",
     title: "Coffee",
     sub: "* SINCE 1950 *",
   },
   {
     id: 2,
-    src: "/images/carousel-2.jpg",
+    src: "./images/carousel-2.jpg",
     heading: "Freshly Brewed 4",
     title: "Espresso",
     sub: "* EVERY DAY *",
@@ -87,12 +87,10 @@ const HeroCarousel = () => {
 
       <button onClick={prevSlide} className="abs h_100 left_carousal_button">
         <span className="icon_container icon_left_control">
-          {/* <img src="/icon/left-icon.png" alt="Left" /> */}
         </span>
       </button>
       <button onClick={nextSlide} className="abs h_100 right_carousal_button">
         <span className="icon_container icon_right_control">
-          {/* <img src="/icon/right-icon.png" alt="Right" /> */}
         </span>
       </button>
     </div>

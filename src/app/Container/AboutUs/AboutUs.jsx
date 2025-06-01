@@ -17,7 +17,7 @@ const AboutUs = () => {
                     <CustomButton button_text={"Learn More"} button_link={"/"} />
                 </div>
                 <div className='scroll_bottom w_100 h_100 relative flex fl_dir_col about_us_image_container'>
-                    <Image className='image_fit' src="/images/about.png" fill="auto" />
+                    <Image className='image_fit' src="./images/about.png" fill="auto" />
                 </div>
                 <div className='grid-item tx_al_left flex gap_20 fl_dir_col pd_block_40 fl_jus_bet'>
                     <h2 className='scroll_right fn_mid_2 fn_w_700 font_roboto cl_coffee_dark'>Our Vision</h2>

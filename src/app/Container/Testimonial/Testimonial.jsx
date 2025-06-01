@@ -4,25 +4,25 @@ import StyledHeader from "@/app/Component/StyledHeader"
 
 const sliderContent = [
     {
-        "image": "/images/testimonial-1.jpg",
+        "image": "./images/testimonial-1.jpg",
         "name": "Client Name",
         "profession": "Profession",
         "talk": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eveniet blanditiis alias ab! Modi ipsam commodi blanditiis."
     },
     {
-        "image": "/images/testimonial-2.jpg",
+        "image": "./images/testimonial-2.jpg",
         "name": "Client Name",
         "profession": "Profession",
         "talk": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eveniet blanditiis alias ab! Modi ipsam commodi blanditiis."
     },
     {
-        "image": "/images/testimonial-3.jpg",
+        "image": "./images/testimonial-3.jpg",
         "name": "Client Name",
         "profession": "Profession",
         "talk": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eveniet blanditiis alias ab! Modi ipsam commodi blanditiis."
     },
     {
-        "image": "/images/testimonial-4.jpg",
+        "image": "./images/testimonial-4.jpg",
         "name": "Client Name",
         "profession": "Profession",
         "talk": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eveniet blanditiis alias ab! Modi ipsam commodi blanditiis."

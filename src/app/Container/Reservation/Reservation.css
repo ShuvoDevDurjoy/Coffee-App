@@ -85,7 +85,7 @@ select.input_type_2 {
   appearance: none;  /* Hide native arrow */
   -webkit-appearance: none;
   -moz-appearance: none;
-  background: url('/icon/native_icon.png') no-repeat right 10px center;
+  background: url('./icon/native_icon.png') no-repeat right 10px center;
   background-size: 24px 24px;
 }
 

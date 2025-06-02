@@ -10,7 +10,7 @@ import RevealOnScroll from "./Component/RevealOnScroll";
 
 const page = () => {
   return (
-    <div className="home_page_main_container">
+    <div className="page_main_container">
       <Hero />
       <AboutUs />
       <Service />
@@ -18,7 +18,6 @@ const page = () => {
       <Menu />
       <Reservation />
       <Testimonial />
-      <Footer />
       <RevealOnScroll />
     </div>
   );

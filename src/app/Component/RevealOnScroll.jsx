@@ -28,8 +28,8 @@ export default function RevealOnScroll() {
           ease: "power3.out",
           scrollTrigger: {
             trigger: elem,
-            start: "top 90%",
-            end: "bottom 30%",
+            start: "top 98%",
+            end: "bottom 20%",
             toggleActions: "play reverse play reverse",
             // markers: true, // uncomment to debug scroll positions
           }

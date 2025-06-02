@@ -66,7 +66,7 @@ const HeroCarousel = () => {
     <div className="hero_inner_container relative">
         {slides.map((slide, index) => (
           <div
-            key={slide.id}
+            key={index}
             className={`hero_carousal_item ${index==currentIndex?"active":""} ${index==prevIndex?(slide_left?'slide_left':'slide_right'):''} ${index==nextIndex?(slide_left?'slide_right':'slide_left'):''}`}
           >
             <div className="hero_carousal_image_container relative">

@@ -44,6 +44,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   padding: 0px;
   margin: 0px;
+  overflow-x: hidden;
 }
 
 * {
@@ -54,11 +55,11 @@ body {
 
 .body{
   width: 100%;
-  background-color: 	#837060;
+  background-color: #d9c49f;
   overflow-x: hidden;
 }
 
-.home_page_main_container{
+.page_main_container{
   background-color: #d9c49f;
   z-index: -2;
 }

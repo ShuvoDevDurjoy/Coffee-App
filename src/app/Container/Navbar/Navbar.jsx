@@ -1,5 +1,6 @@
 'use client'
 import { useState } from 'react';
+import Link from 'next/link';
 import './Navbar.css'
 
 const Navbar = () => {
@@ -21,16 +22,16 @@ const Navbar = () => {
               <a className='nav_link cl_white' href="/">Home</a>
             </li>
             <li className="list_item">
-              <a className='nav_link cl_white' href="/">About</a>
+              <a className='nav_link cl_white' href="/about">About</a>
             </li>
             <li className="list_item">
-              <a className='nav_link cl_white' href="/">Service</a>
+              <a className='nav_link cl_white' href="/service">Service</a>
             </li>
             <li className="list_item">
-              <a className='nav_link cl_white' href="/">Menu</a>
+              <a className='nav_link cl_white' href="/menu">Menu</a>
             </li>
             <li className="list_item">
-              <a className='nav_link cl_white' href="/">Contact</a>
+              <a className='nav_link cl_white' href="/reserve">Book Table</a>
             </li>
           </ul>
         </div>
@@ -47,27 +48,27 @@ const Navbar = () => {
               </a>
             </li>
             <li className="list_item">
-              <a className='nav_link cl_white flex gap_20 fl_al_cen' href="/">
+              <a className='nav_link cl_white flex gap_20 fl_al_cen' href="/about">
                 <i className='fas fa-info-circle'></i>
                 <span>About</span>
               </a>
             </li>
             <li className="list_item">
-              <a className='nav_link cl_white  flex gap_20 fl_al_cen' href="/">
+              <a className='nav_link cl_white  flex gap_20 fl_al_cen' href="/service">
                 <i className='fas fa-laptop'></i>
                 <span>Service</span>
               </a>
             </li>
             <li className="list_item">
-              <a className='nav_link cl_white flex gap_20 fl_al_cen' href="/">
+              <a className='nav_link cl_white flex gap_20 fl_al_cen' href="/menu">
                 <i className="fas fa-utensils"></i>
                 <span>Menus</span>
               </a>
             </li>
             <li className="list_item">
-              <a className='nav_link cl_white flex gap_20 fl_al_cen' href="/">
-                <i className="fas fa-envelope"></i>
-                <span>Contact</span>
+              <a className='nav_link cl_white flex gap_20 fl_al_cen' href="/reserve">
+                <i className="fas fa-calendar-check"></i>
+                <span>Book Table</span>
               </a>
             </li>
           </ul>

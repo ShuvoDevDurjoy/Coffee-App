@@ -1,5 +1,6 @@
 // import { Geist, Geist_Mono } from "next/font/google";
 import RevealOnScroll from "./Component/RevealOnScroll";
+import Footer from "./Container/Footer/Footer";
 import Navbar from "./Container/Navbar/Navbar";
 import "./globals.css";
 
@@ -39,6 +40,8 @@ export default function RootLayout({ children }) {
       <body className="relative body">
         <Navbar />
         {children}
+        <Footer />
+        <RevealOnScroll />
       </body>
     </html>
   );

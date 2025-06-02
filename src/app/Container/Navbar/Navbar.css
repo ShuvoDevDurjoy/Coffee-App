@@ -54,7 +54,7 @@
     height: 40px;
     content: '';
     display: block;
-    background-image: url('/icon/menu2.svg');
+    background-image: url('/Coffee-App/icon/menu2.svg');
     background-size: 100% 100%;
     cursor: pointer;
 }

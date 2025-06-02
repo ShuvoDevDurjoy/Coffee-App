@@ -1,6 +1,6 @@
 .footer_container{
     width: 100%;
-    background-image: url('/images/bg.jpg');
+    background-image: url('/Coffee-App/images/bg.jpg');
     background-size: cover contain;
     z-index: 100;
     margin-top: 50px;
@@ -12,7 +12,7 @@
     content: '';
     display: block;
     position: absolute;
-    background-image: url('/images/overlay-bottom.png');
+    background-image: url('/Coffee-App/images/overlay-bottom.png');
     top: -0px;
     transform: rotateX(180deg);
     z-index: 10;

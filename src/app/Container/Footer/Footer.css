@@ -109,13 +109,6 @@
     transition: .2s ease-out;
 }
 
-@media screen and (max-width: 1024) {
-    .footer_grid_container{
-        grid-template-columns: 1fr 1fr;
-        row-gap: 50px;
-    }
-
-}
 
 @media screen and (max-width: 768px){
     .footer_grid_container{
@@ -124,4 +117,12 @@
     .footer_grid_container .grid-item{
         align-items: center;
     }
+}
+
+@media screen and (max-width: 1024) {
+    .footer_grid_container{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 50px;
+    }
+
 }

@@ -10,7 +10,6 @@
     backdrop-filter: blur(5px);
     border: 1px dashed #ddd;
     z-index: 20;
-    margin-inline: 10px;
 }
 
 .background_image_wrapper{

@@ -19,19 +19,19 @@ const Navbar = () => {
         <div className="nav_item_container navbar_desktop">
           <ul className="nav_items_list">
             <li className="list_item cl_white">
-              <a className='nav_link cl_white' href="/">Home</a>
+              <a className='nav_link cl_white' href="/Coffee-App">Home</a>
             </li>
             <li className="list_item">
-              <a className='nav_link cl_white' href="/about">About</a>
+              <a className='nav_link cl_white' href="/Coffee-App/about">About</a>
             </li>
             <li className="list_item">
-              <a className='nav_link cl_white' href="/service">Service</a>
+              <a className='nav_link cl_white' href="/Coffee-App/service">Service</a>
             </li>
             <li className="list_item">
-              <a className='nav_link cl_white' href="/menu">Menu</a>
+              <a className='nav_link cl_white' href="/Coffee-App/menu">Menu</a>
             </li>
             <li className="list_item">
-              <a className='nav_link cl_white' href="/reserve">Book Table</a>
+              <a className='nav_link cl_white' href="/Coffee-App/reserve">Book Table</a>
             </li>
           </ul>
         </div>
@@ -42,31 +42,31 @@ const Navbar = () => {
       <div className={`navbar_mobile pd_block_40 ${menu_clicked ? 'active': ''}`}>
           <ul className="nav_items_list flex fl_dir_col fl_jus_bt fl_al_cen gap_20">
             <li className="list_item cl_white">
-              <a className='nav_link cl_white flex gap_20 fl_al_cen' href="/">
+              <a className='nav_link cl_white flex gap_20 fl_al_cen' href="/Coffee-App">
                 <i className='fa fa-home'></i>
                 <span>Home</span>
               </a>
             </li>
             <li className="list_item">
-              <a className='nav_link cl_white flex gap_20 fl_al_cen' href="/about">
+              <a className='nav_link cl_white flex gap_20 fl_al_cen' href="/Coffee-App/about">
                 <i className='fas fa-info-circle'></i>
                 <span>About</span>
               </a>
             </li>
             <li className="list_item">
-              <a className='nav_link cl_white  flex gap_20 fl_al_cen' href="/service">
+              <a className='nav_link cl_white  flex gap_20 fl_al_cen' href="/Coffee-App/service">
                 <i className='fas fa-laptop'></i>
                 <span>Service</span>
               </a>
             </li>
             <li className="list_item">
-              <a className='nav_link cl_white flex gap_20 fl_al_cen' href="/menu">
+              <a className='nav_link cl_white flex gap_20 fl_al_cen' href="/Coffee-App/menu">
                 <i className="fas fa-utensils"></i>
                 <span>Menus</span>
               </a>
             </li>
             <li className="list_item">
-              <a className='nav_link cl_white flex gap_20 fl_al_cen' href="/reserve">
+              <a className='nav_link cl_white flex gap_20 fl_al_cen' href="/Coffee-App/reserve">
                 <i className="fas fa-calendar-check"></i>
                 <span>Book Table</span>
               </a>
